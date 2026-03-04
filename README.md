@@ -83,7 +83,7 @@ If you use a different OMP workflow, you can still use this repo, but you will n
 ### 1) Train + infer (recommended “one command” workflow)
 ```bash
 python scripts/batch_inference_own_omp.py <ECCO_ROOT_DIR> <PRED_DIR|same> true 16
-
+```
 Arguments:
 
 <ECCO_ROOT_DIR>: root directory containing ECCO NetCDF files
