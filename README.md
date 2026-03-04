@@ -100,12 +100,12 @@ true: train models before inference
 Models are written to ./models/, and are saved as:
 ./models/RF_depth{depth}_fold{0–4}.joblib
 
-2) Inference only (use existing models)
+### 2) Inference only (use existing models)
 python scripts/batch_inference_own_omp.py <ECCO_ROOT_DIR> <PRED_DIR|same> false 16
 
 This loads model files matching ./models/RF_depth<depth>_fold*.
 
-Outputs
+### Outputs
 
 For each ECCO time slice processed, the batch script writes:
 
@@ -113,7 +113,7 @@ a NetCDF containing the predicted water-mass fractions (and copies theta, salt, 
 
 a companion NetCDF containing uncertainty estimates (ensemble variance) for each water mass
 
-Python environment
+### Python environment
 
 This repo is standard scientific Python. You will need (at minimum):
 
@@ -131,7 +131,7 @@ matplotlib
 
 (An environment.yml / requirements.txt can be added once the repo is stable.)
 
-Notes / caveats
+### Notes
 
 The batch inference script converts ECCO potential temperature and practical salinity to Conservative Temperature and Absolute Salinity using TEOS-10 (gsw).
 
