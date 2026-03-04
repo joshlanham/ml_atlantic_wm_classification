@@ -1,0 +1,24 @@
+# Ignore contents but keep folders
+data/*
+models/*
+outputs/*
+
+# Keep folder placeholders
+!data/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+
+# Large scientific files
+*.nc
+*.npy
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store

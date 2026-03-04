@@ -1,0 +1,11 @@
+numpy
+pandas
+xarray
+scipy
+matplotlib
+scikit-learn
+netCDF4
+gsw
+joblib
+cartopy
+cmocean
