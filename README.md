@@ -1,6 +1,6 @@
 # Atlantic water-mass classification (OMP → RF → ECCO)
 
-If you use this software, please cite the JGR MLC paper and the archived Zenodo release.
+If you use this software, please cite the JGR MLC paper and the archived Zenodo release 10.5281/zenodo.19451467.
 
 Code accompanying the manuscript (accepted at *JGR: Machine Learning and Computation*) describing a two-stage framework:
 1) an OMP-derived, tracer-informed reference classification, and
