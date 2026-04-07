@@ -1,8 +1,8 @@
 # Atlantic water-mass classification (OMP → RF → ECCO)
 
-If you use this software, please cite the archived Zenodo release.
+If you use this software, please cite the JGR MLC paper and the archived Zenodo release.
 
-Code accompanying the manuscript (submitted to *JGR: Machine Learning and Computation*) describing a two-stage framework:
+Code accompanying the manuscript (accepted at *JGR: Machine Learning and Computation*) describing a two-stage framework:
 1) an OMP-derived, tracer-informed reference classification, and
 2) a Random Forest (RF) ensemble trained to reproduce OMP water-mass fractions from T/S + position, then applied to ECCO to generate gridded monthly Atlantic water-mass fields.
 
