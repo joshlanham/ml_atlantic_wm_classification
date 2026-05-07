@@ -131,8 +131,6 @@ joblib
 
 matplotlib
 
-(An environment.yml / requirements.txt can be added once the repo is stable.)
-
 ### Notes
 
 The batch inference script converts ECCO potential temperature and practical salinity to Conservative Temperature and Absolute Salinity using TEOS-10 (gsw).
